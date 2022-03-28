@@ -49,7 +49,7 @@ const Linechart = () => {
       ];
 
     return (
-  <div className=' mt-8'>
+  <div className=' mt-8 m-6 p-5'>
       <LineChart width={1000} height={400} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
     <Line type="monotone" dataKey="Price" stroke="#8884d8" />
     <Line type="monotone" dataKey="sles" stroke="red" />
